@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Warna warni</title>
+</head>
+
+<body>
+    <div class="judul">
+        <h1>Warna Warni</h1>
+    </div>
+
+    <div class="container">
+        <div class="kotak satu">
+            <div class="kotakWarna"></div>
+            <button class="bulatWarna" id="merah"></button>
+            <button class="bulatWarna" id="kuning"></button>
+            <button class="bulatWarna" id="hijau"></button>
+        </div>
+        <div class="kotak dua">
+            <div class="kotakWarna b"></div>
+            <button class="ubahWarna" id="ubah">ACAK WARNA</button>
+        </div>
+        <div class="kotak tiga">
+            <div class="kotakWarna c"></div>
+            <div class="cInput">
+                <div class="row">
+                    <div class="tanda merah"></div>
+                    <input type="range" name="sMerah" min="0" max="255">
+                </div>
+                <div class="row">
+                    <div class="tanda hijau"></div>
+                    <input type="range" name="sHijau" min="0" max="255">
+                </div>
+                <div class="row">
+                    <div class="tanda biru"></div>
+                    <input type="range" name="sBiru" min="0" max="255">
+                </div>
+            </div>
+        </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>

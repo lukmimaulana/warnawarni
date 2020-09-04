@@ -1,0 +1,144 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.judul {
+    height: 100px;
+    padding: 10px 0px;
+    background-image: linear-gradient(to right, red, blue);
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(216, 216, 216);
+    padding: 50px auto;
+}
+
+.kotak {
+    width: 350px;
+    height: 500px;
+    background-color: rgba(236, 236, 236);
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 2px 2px 5px rgb(131, 131, 131);
+    padding: 10px;
+}
+
+.kotakWarna {
+    width: 330px;
+    height: 380px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.bulatWarna {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.ubahWarna {
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: rgb(255, 64, 64);
+    display: inline-block;
+    margin: 20px 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#merah {
+    background-color: red;
+}
+
+#kuning {
+    background-color: yellow;
+}
+
+#hijau {
+    background-color: green;
+}
+
+.tanda {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+.cInput {
+    width: 100%;
+    height: 90px;
+    margin: auto;
+    padding: 10px;
+}
+
+.tanda {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    float: left;
+    margin: 2px 0px 0px;
+}
+
+input {
+    width: 85%;
+    margin: 6px auto;
+}
+
+.merah {
+    background-color: red;
+}
+
+.hijau {
+    background-color: green;
+}
+
+.biru {
+    background-color: blue;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cursor {
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    background-color: rgb(255, 64, 64);
+    display: inline-block;
+    margin: 20px 15px;
+    padding: 15px 0px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
